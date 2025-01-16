@@ -62,6 +62,7 @@ fn main()
 {
     match parse_number_string("six hundred ninety six billion nine hundred sixty nine million six hundred ninety six thousand nine hundred sixty nine")
     {
+        // returns Parsed value: 696969696969
         Ok(value) => println!("Parsed value: {}", value),
         Err(e) => println!("Error: {}", e)
     }
